@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-    int rows, columns;
+    int rows;
     cout<<"Enter number of rows : ";
     cin>>rows;
     for(int i = 1; i<=rows; i++)
