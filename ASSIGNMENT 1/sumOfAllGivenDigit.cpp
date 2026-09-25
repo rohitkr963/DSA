@@ -7,12 +7,13 @@ int main()
     cout<<"Enter number of n : ";
     cin>>n;
     int sum = 0;
-    
-    for(int i = 1; i<=n; i++){
-        if(i%2==0){
-            sum += i;
+    while(n>0){
+        int res = n%10;
+        if(res%2==0){
+            sum += res;
         }
+        n = n/10;
     }
-        cout<<sum;
+    cout<<sum;
 }
 
